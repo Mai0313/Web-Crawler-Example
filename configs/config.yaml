@@ -1,0 +1,12 @@
+user_settings:
+  website: https://shopee.tw/buyer/login
+  username: 0958026389
+  password: A1z2s3x4566
+
+crawler_settings:
+  headless: False
+
+crawler_elements:
+  username_element: input[name='loginKey']
+  password_element: input[name='password']
+  login_btn_element: button:has-text('登入')
