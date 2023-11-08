@@ -21,12 +21,6 @@ class UserSettings(BaseModel):
     username: str
     password: str
 
-    # @field_validator("website", mode = "after")
-    # def get_url_string(cls, v):
-    #     if isinstance(v, HttpUrl):
-    #         return str(v)
-    #     return v
-
 
 class Config(BaseModel):
     user: UserSettings
