@@ -4,7 +4,7 @@ default_language_version:
 repos:
   - repo: https://github.com/astral-sh/ruff-pre-commit.git
     # Ruff version.
-    rev: v0.1.4
+    rev: v0.1.11
     hooks:
       - id: ruff
         args:
@@ -49,7 +49,7 @@ repos:
 
   # jupyter notebook linting
   - repo: https://github.com/nbQA-dev/nbQA.git
-    rev: 1.7.0
+    rev: 1.7.1
     hooks:
       - id: nbqa-ruff
         args:
